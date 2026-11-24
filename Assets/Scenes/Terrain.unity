@@ -1286,6 +1286,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 4829649890647247621, guid: e97a396b16b1e9d429d72cbeaeb5ff6a, type: 3}
     - {fileID: 4657322877083308458, guid: e97a396b16b1e9d429d72cbeaeb5ff6a, type: 3}
+    - {fileID: 3338335922635781860, guid: e97a396b16b1e9d429d72cbeaeb5ff6a, type: 3}
     m_RemovedGameObjects:
     - {fileID: 1732453020987165055, guid: e97a396b16b1e9d429d72cbeaeb5ff6a, type: 3}
     m_AddedGameObjects:
@@ -11486,7 +11487,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 977004877}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
   m_Name: 
@@ -16046,6 +16047,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 295911440}
     m_Modifications:
+    - target: {fileID: 1478579375793848004, guid: c9b8ae142009fd946b5989db9c2985ba, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478579375793848004, guid: c9b8ae142009fd946b5989db9c2985ba, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: bb3a96c3666ac4741b7f36e714027ad6, type: 2}
     - target: {fileID: 5500480651589804461, guid: c9b8ae142009fd946b5989db9c2985ba, type: 3}
       propertyPath: m_Name
       value: Raptor_Animated_FBX_5K_Orange
