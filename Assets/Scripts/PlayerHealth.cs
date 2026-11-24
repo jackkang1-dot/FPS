@@ -9,7 +9,7 @@ public class PlayerHealth : MonoBehaviour
     {
         hitPoints -= damage;
 
-        if (hitPoints <= damage)
+        if (hitPoints <= 0)
         {
             print("Player died!");
         }

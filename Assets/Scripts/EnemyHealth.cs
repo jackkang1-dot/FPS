@@ -32,7 +32,7 @@ public class EnemyHealth : MonoBehaviour
 
         hitPoints -= damage;
 
-        if(hitPoints <= damage)
+        if(hitPoints <= 0)
         {
             // Destroy(gameObject);
             // print("You're dead!");
