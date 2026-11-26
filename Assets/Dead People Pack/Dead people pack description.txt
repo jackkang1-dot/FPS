@@ -1,0 +1,16 @@
+This is the "Dead People Pack" asset, containing 3D models of dead people. All models feature an LOD system.
+
+Textures are located in the Textures folder.
+
+Models are stored in the Models folder.
+
+Materials can be found in the Materials folder.
+
+Prefabs are placed in the Prefabs folder.
+
+For your convenience, a demo scene is included.
+
+Texture resolution: 4096x4096.
+Supported render pipelines: Both URP and HDRP textures are provided.
+
+Bonus: The pack includes baked textures that simulate lighting, making them perfect for performance-sensitive projects like mobile games.

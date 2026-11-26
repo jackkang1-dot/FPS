@@ -55,10 +55,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.76492345
-  m_Height: 4.9740667
+  m_Radius: 0.43914092
+  m_Height: 2.928429
   m_Direction: 2
-  m_Center: {x: 0.13647059, y: 0.46728432, z: 0.39915773}
+  m_Center: {x: 0.13647062, y: 0.14150167, z: 0.58803505}
 --- !u!195 &7732189664868777799
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -121,6 +121,18 @@ PrefabInstance:
     - target: {fileID: 5500480651589804461, guid: c9b8ae142009fd946b5989db9c2985ba, type: 3}
       propertyPath: m_Name
       value: Raptor_Animated_FBX_5K_Orange
+      objectReference: {fileID: 0}
+    - target: {fileID: 8795244037842768830, guid: c9b8ae142009fd946b5989db9c2985ba, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8795244037842768830, guid: c9b8ae142009fd946b5989db9c2985ba, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8795244037842768830, guid: c9b8ae142009fd946b5989db9c2985ba, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 8795244037842768830, guid: c9b8ae142009fd946b5989db9c2985ba, type: 3}
       propertyPath: m_LocalPosition.x

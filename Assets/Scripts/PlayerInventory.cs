@@ -5,6 +5,8 @@ public class PlayerInventory : MonoBehaviour
 {
     // True once the player has picked up the fuse.
     private bool hasFuse = false;
+    // True once the player has picked up the custodian's key.
+    private bool hasKey = false;
 
     // Lets other scripts ask whether the player is carrying the fuse.
     public bool HasFuse()
@@ -22,5 +24,17 @@ public class PlayerInventory : MonoBehaviour
     public void UseFuse()
     {
         hasFuse = false;
+    }
+
+    // Lets other scripts ask whether the player is carrying the key.
+    public bool HasKey()
+    {
+        return hasKey;
+    }
+
+    // Called by KeyPickup when the player walks into the key.
+    public void PickUpKey()
+    {
+        hasKey = true;
     }
 }
